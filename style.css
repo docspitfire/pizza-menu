@@ -1,0 +1,51 @@
+*{
+    margin: 1vh;
+    padding: 1vh;
+}
+
+h1{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0px;
+    margin: auto;
+  }
+  
+
+p:nth-child(1) {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+  
+}
+
+
+p:after { 
+    content:'';
+    flex-grow: 1;
+    margin: auto;
+    height: 1px; 
+    background: #000; 
+    margin-left: 10px;
+
+
+}
+#Total_cmd{
+    position: fixed;
+    right: 14vh;
+}
+button{
+    border: none;
+}
+  
+
+
+    
+

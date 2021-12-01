@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="./pizzalogo.jpg"
+    <ul>
+        <li id="1" value="8" name="Reine">
+            <p>Reine : Tomate, jambon, fromage, olives</p>
+            <span id="prix">8€</span>
+            <button id="add_pizza" value="8">+</button>
+            <span id="Nb_pizza">0</span>
+            <button id="remove_pizza" value="8">-</button>
+            <span id="total">0€</span>
+        </li>
+        <li id="2" value="9" name="Reine blanche">
+            <p>Reine blanche : crème, jambon, fromage, olives</p>
+            <span id="prix">9€</span>
+            <button id="add_pizza" value="9">+</button>
+            <span id="Nb_pizza">0</span>
+            <button id="remove_pizza" value="9">-</button>
+            <span id="total">0€</span>
+        </li>
+        <li id="3" value="10" name="Napolitaine">
+            <p>Napolitaine : Tomate, jambon, anchois, olives</p>
+            <span id="prix">10€</span>
+            <button id="add_pizza" value="10">+</button>
+            <span id="Nb_pizza">0</span>
+            <button id="remove_pizza" value="10">-</button>
+            <span id="total">0€</span>
+        </li>
+        <li id="4" value="11" name="Estoril">
+            <p>Estoril : Tomate, jambon, chorizo, olives</p>
+            <span id="prix">11€</span>
+            <button id="add_pizza" value="11">+</button>
+            <span id="Nb_pizza">0</span>
+            <button id="remove_pizza" value="11">-</button>
+            <span id="total">0€</span>
+        </li>
+        <li id="5" value="11" name="Aubergine">
+            <p>Aubergine : Tomate, fromage, aubergine, huile au basilic, olives</p>
+            <span id="prix">11€</span>
+            <button id="add_pizza" value="11">+</button>
+            <span id="Nb_pizza">0</span>
+            <button id="remove_pizza" value="11">-</button>
+            <span id="total">0€</span>
+        </li>
+        <li id="6" value="12" name="Royale">
+            <p>Royale : Tomate, jambon, fromage, champignon, olives</p>
+            <span id="prix">12€</span>
+            <button id="add_pizza" value="12">+</button>
+            <span id="Nb_pizza">0</span>
+            <button id="remove_pizza" value="12">-</button>
+            <span id="total">0€</span>
+        </li>
+        <li id="7" value="12" name="La spéciale ">
+            <p>La spéciale : Tomate, fromage, chorizo, merguez, olives</p>
+            <span id="prix">12€</span>
+            <button id="add_pizza" value="12">+</button>
+            <span id="Nb_pizza">0</span>
+            <button id="remove_pizza" value="12">-</button>
+            <span id="total">0€</span>
+        </li>
+        <li id="total_pizza">
+            <div id="Total_cmd">Total</div>
+        </li>
+    </ul>
+
+    <div id="smart-button-container" style="display: none;">
+        <div style="text-align: center;">
+            <div id="paypal-button-container"></div>
+        </div>
+    </div>
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=EUR"
+        data-sdk-integration-source="button-factory"></script>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
